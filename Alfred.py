@@ -134,7 +134,7 @@ if __name__ == "__main__":
             speak(f"Sir, the time is {strTime}")
 
         elif 'open app' in query:
-            codePath = "'path/to/songs/app"
+            codePath = "'path/to/app"
             os.startfile(codePath)
 
         elif 'email to receiver' in query:
